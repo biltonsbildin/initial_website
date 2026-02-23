@@ -3,162 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Your Organization Name</title>
-  <meta name="description" content="We build thoughtful, reliable software." />
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css" />
-
-  <!-- Social preview -->
-  <meta property="og:title" content="Your Organization Name" />
-  <meta property="og:description" content="We build thoughtful, reliable software." />
-  <meta property="og:type" content="website" />
+  <title>Bildin</title>
+  <meta name="description" content="Get Bildin — AI that makes DIY projects easier." />
+  <link rel="stylesheet" href="/assets/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="nav" role="navigation" aria-label="Primary">
-      <a class="brand" href="#top">
-        <img src="assets/logo.svg" alt="Your Organization Name logo" />
-        <div class="name">
-          <strong>Your Organization Name</strong>
-          <span>Simple, reliable software</span>
+  <div class="container">
+    <header class="header">
+      <a class="brand" href="/" aria-label="Bildin home">
+        <img src="/assets/logo.svg" alt="Bildin logo" />
+        <div>
+          <div class="name">Bildin</div>
+          <div class="tagline">Get Bildin</div>
         </div>
       </a>
-      <div class="nav-links">
-        <a href="#about">About</a>
-        <a href="#work">What we build</a>
-        <a href="#values">Values</a>
-        <a href="#contact">Contact</a>
-        <a href="privacy.html">Privacy</a>
-      </div>
-    </div>
-  </header>
+      <nav class="nav" aria-label="Primary">
+        <a href="/privacy.html">Privacy</a>
+      </nav>
+    </header>
 
-  <main id="top" class="container">
-    <section class="hero" aria-label="Intro">
-      <div class="hero-grid">
-        <div>
-          <div class="kicker"><span class="dot"></span> Minimalist. Modern. Maintainable.</div>
-          <h1>Building software that’s easy to use—and easy to trust.</h1>
-          <p class="lead">
-            We create practical tools and applications with an emphasis on clarity, performance, and privacy.
-            This site is intentionally lightweight and fast.
-          </p>
-          <div class="cta">
-            <a class="btn primary" href="#contact">Contact us</a>
-            <a class="btn" href="privacy.html">Read privacy policy</a>
-          </div>
-        </div>
+    <main class="hero">
+      <h1>Get Bildin.</h1>
+      <p class="lead">
+        Bildin uses AI to make doing DIY projects on your own as easy as possible.
+      </p>
 
-        <aside class="hero-card" aria-label="Quick info">
-          <div class="row">
-            <img src="assets/logo.svg" alt="" aria-hidden="true" />
-            <div>
-              <h2>Quick details</h2>
-              <p>Replace this with a short description of your organization and what you offer.</p>
-            </div>
-          </div>
-          <div class="meta">
-            <span class="pill">📍 City, State/Country</span>
-            <span class="pill">✉️ support@yourdomain.com</span>
-            <span class="pill">🔒 Privacy-first</span>
-          </div>
-        </aside>
-      </div>
-    </section>
+      <a class="cta" href="mailto:info@getbildin.com">info@getbildin.com</a>
+    </main>
 
-    <section id="about" class="section">
-      <h3>About</h3>
-      <div class="split">
-        <div class="card">
-          <h4>Who we are</h4>
-          <p>
-            Your Organization Name is a team that builds software products and tools. Keep this to 2–4 sentences.
-            For Apple developer enrollment, it helps if your legal org name and your website match.
-          </p>
-        </div>
-        <div class="card">
-          <h4>What we care about</h4>
-          <p>
-            Clear interfaces, stable infrastructure, and thoughtful data practices. We avoid unnecessary tracking and
-            keep things simple.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="work" class="section">
-      <h3>What we build</h3>
-      <div class="cards">
-        <div class="card">
-          <h4>Apps</h4>
-          <p>Mobile and web apps designed to be fast, intuitive, and dependable.</p>
-        </div>
-        <div class="card">
-          <h4>Internal tools</h4>
-          <p>Dashboards, automations, and workflows that remove friction and save time.</p>
-        </div>
-        <div class="card">
-          <h4>Support</h4>
-          <p>Friendly, responsive support via email for our products and services.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="values" class="section">
-      <h3>Values</h3>
-      <div class="cards">
-        <div class="card">
-          <h4>Privacy by default</h4>
-          <p>We collect as little as possible and keep it for as short a time as possible.</p>
-        </div>
-        <div class="card">
-          <h4>Reliability</h4>
-          <p>Simple systems are easier to maintain, monitor, and trust.</p>
-        </div>
-        <div class="card">
-          <h4>Clarity</h4>
-          <p>Readable copy, straightforward navigation, and accessible design choices.</p>
-        </div>
-      </div>
-    </section>
-
-    <hr class="soft" />
-
-    <section id="contact" class="section">
-      <h3>Contact</h3>
-      <div class="split">
-        <div class="card">
-          <h4>Email</h4>
-          <p>
-            Support: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a><br />
-            Privacy: <a href="mailto:privacy@yourdomain.com">privacy@yourdomain.com</a>
-          </p>
-        </div>
-        <div class="card">
-          <h4>Business info</h4>
-          <p>
-            Your Organization Name<br />
-            City, State/Country
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <footer class="footer" aria-label="Footer">
-      <div>
-        <strong style="color: rgba(255,255,255,.85)">Your Organization Name</strong><br />
-        <span>© <span id="y"></span> All rights reserved.</span>
-      </div>
-      <div style="display:flex;gap:14px;flex-wrap:wrap">
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="#contact">Contact</a>
-      </div>
+    <footer class="footer">
+      <div>© 2026 Bildin</div>
+      <div><a href="/privacy.html">Privacy Policy</a></div>
     </footer>
-  </main>
-
-  <script>
-    // Tiny enhancement: keep the page evergreen.
-    document.getElementById('y').textContent = new Date().getFullYear();
-  </script>
+  </div>
 </body>
 </html>
